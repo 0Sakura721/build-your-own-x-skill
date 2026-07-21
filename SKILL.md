@@ -1,10 +1,6 @@
 ---
 name: build-your-own-x
-description: "通过从零重建你热爱的技术来掌握编程。基于 GitHub 529K+ star 项目 codecrafters-io/build-your-own-x，收录 30+ 个技术领域的 200+ 篇「从零构建」教程，涵盖 3D 渲染器、AI 模型、区块链、数据库、Docker、游戏引擎、Git、操作系统、编程语言、神经网络、Shell、Web 服务器等。触发词：从零实现/构建/重建/造轮子、build your own、byox、手写、learn by building。"
-compatibility:
-  - http_request: 访问教程链接内容
-  - web_access: 浏览教程网页
-  - command_line: 克隆代码仓库、本地实操
+description: "Master programming by recreating your favorite technologies from scratch. Based on the 529K+ star GitHub repo codecrafters-io/build-your-own-x, this skill indexes 200+ step-by-step tutorials across 30+ tech domains — 3D renderer, AI model, blockchain, database, Docker, emulator, game engine, Git, OS, programming language, neural network, Shell, web server, and more. Triggers on: build your own, from scratch, byox, learn by building, recreate, 从零实现, 手写, 造轮子."
 ---
 
 # Build Your Own X — 从零构建一切
@@ -15,7 +11,7 @@ compatibility:
 
 ## When to Use
 
-当用户说以下任意内容时触发本 Skill：
+Use this skill when a user says:
 
 - "我想从零实现一个 XXX"
 - "怎么手写/手搓一个 XXX"
@@ -27,9 +23,9 @@ compatibility:
 
 ## Not For
 
-- 已有现成框架/库的简单使用教程 → 直接教用
-- 纯粹的理论原理讲解（不涉及动手写代码）
-- 已有的单独教程（本 Skill 提供的是索引和引导）
+- Simple how-to-use existing frameworks/libraries → answer directly
+- Pure theory without coding involvement（不涉及动手写代码）
+- Already-existing standalone tutorials (this skill is an index)
 
 ---
 
@@ -50,7 +46,7 @@ compatibility:
 ### 第 3 步：引导实操
 
 - 用 `visit_web` 打开教程链接，提取核心步骤
-- 用终端或代码执行工具帮助用户开始写代码
+- 为用户规划编码流程，逐步引导完成
 - 如果教程有 GitHub 仓库，用 `git clone` 拉取
 - 逐步引导，每步验证编译/运行
 
