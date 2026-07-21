@@ -7,52 +7,48 @@ description: "Master programming by recreating your favorite technologies from s
 
 > "What I cannot create, I do not understand." — Richard Feynman
 
-基于 [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)（529K+ ⭐），这是一份精心整理的教程合集，教你从零重建我们热爱的各种技术。
+基于 [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)（529K+ ⭐），精心整理的 200+ 篇「从零重建技术」教程合集。
 
-## When to Use
+## Use this guide when someone asks
 
-当用户说以下任意内容时触发本 Skill：
+- "我想从零实现一个 XXX" / "I want to build a XXX from scratch"
+- "怎么手写/手搓一个 XXX" / "How to recreate XXX"
+- "想理解 XXX 底层原理" / "How does XXX work under the hood?"
+- "build your own XXX" / "from scratch" / "byox"
+- "不用框架/库，纯手写 XXX" / "No frameworks, just raw code"
 
-- "我想从零实现一个 XXX"
-- "怎么手写/手搓一个 XXX"
-- "有没有教你自己写 XXX 的教程"
-- "想理解 XXX 底层原理"
-- "build your own XXX"
-- "造一个 XXX 轮子"
-- "不用框架/库，纯手写 XXX"
+## When NOT to use
 
-## Not For
-
-- 已有现成框架/库的简单使用教程 → 直接教用
-- 纯粹的理论原理讲解（不涉及动手写代码）
-- 已有的单独教程（本 Skill 提供的是索引和引导）
+- Simple how-to-use guides for existing frameworks/libraries
+- Pure theory discussions without coding
+- Already-known standalone tutorials (this is an index, not a replacement)
 
 ---
 
-## 工作流程
+## How to Use
 
-### 第 1 步：确认用户想构建什么
+### Step 1: Clarify what to build
 
-问清楚：
-- 想构建什么技术？（数据库、游戏、OS、语言……）
-- 用什么语言？（Python、Go、Rust、C、JS……）
-- 时间预算？（一小时周末项目 vs. 深入多周学习）
-- 要最简实现(< 500 行)还是完整实现？
+Ask:
+- What technology? (database, game, OS, language…)
+- What language? (Python, Go, Rust, C, JS…)
+- Time budget? (one afternoon vs. multi-week deep dive)
+- Minimal (< 500 lines) or full-featured?
 
-### 第 2 步：匹配教程
+### Step 2: Match a tutorial
 
-从下方教程索引中找到最佳匹配。优先匹配**语言 + 难度 + 技术领域**。
+Find the best match from the index below. Prioritize **language + difficulty + domain**.
 
-### 第 3 步：引导实操
+### Step 3: Guide through the tutorial
 
-- 为用户规划编码流程，逐步引导完成
-- 如果教程有配套代码仓库，引导用户克隆
-- 打开教程链接，提取核心步骤和代码
-- 逐步引导，每步验证编译/运行
+- Open the tutorial link, extract key steps and code snippets
+- Plan the coding flow, guide the user step by step
+- If there's a companion code repo, point them to clone it
+- Verify compilation/execution at each step
 
 ---
 
-## 教程索引
+## 教程索引 / Tutorial Index
 
 ### 🎮 3D 渲染器 (3D Renderer)
 
@@ -289,11 +285,12 @@ description: "Master programming by recreating your favorite technologies from s
 
 ---
 
-## 推荐路线
+## 学习路线 / Learning Pathways
 
-### 🟢 新手路线（周末速成版）
+### 🟢 入门 (Beginner) — 周末速成 (Weekend projects)
 
-适合刚入门、想快速有成就感：
+适合刚入门、想快速有成就感 / Quick wins:
+
 
 1. **Shell** (C) — 一个下午
 2. **Regex Engine** (JS, <40 行) — 一小时
@@ -301,9 +298,9 @@ description: "Master programming by recreating your favorite technologies from s
 4. **Blockchain** (Python) — 一个下午
 5. **Web Server** (Python/Node.js) — 一个下午
 
-### 🟡 中级路线（深入理解）
+### 🟡 进阶 (Intermediate) — 深入理解 (Deep understanding)
 
-有基础、想深入理解系统：
+有基础、想深入系统 / Solid foundations, deeper systems:
 
 1. **Git** (Python) — 1 天
 2. **Database** (Go/C) — 2-3 天
@@ -312,9 +309,9 @@ description: "Master programming by recreating your favorite technologies from s
 5. **Emulator** (C, Chip-8) — 周末
 6. **Programming Language** (mal Lisp) — 3-5 天
 
-### 🔴 专家路线（终极挑战）
+### 🔴 专家 (Expert) — 终极挑战 (The deep end)
 
-想推自己到极限：
+推自己到极限 / Push your limits:
 
 1. **Operating System** (C/Rust) — 数周到数月
 2. **Compiler** (Crafting Interpreters) — 2-4 周
@@ -324,9 +321,9 @@ description: "Master programming by recreating your favorite technologies from s
 
 ---
 
-## 记忆要点
+## 小贴士 / Tips
 
-- 推荐先做新手路线建立信心，再挑战中级
-- 每个项目建议创建 Git 仓库记录进展
-- 教程遇到问题时直接看教程下的评论区/Issues
-- 多语言版本选你当前最熟悉的那门语言
+- 从入门路线开始建立信心，再迈入进阶领域
+- 每个项目建一个 Git 仓库记录进展
+- 卡住时直接看教程评论区/Issues
+- 有多个语言版本时先选你最熟悉的那门
