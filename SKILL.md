@@ -11,7 +11,7 @@ description: "Master programming by recreating your favorite technologies from s
 
 ## When to Use
 
-Use this skill when a user says:
+当用户说以下任意内容时触发本 Skill：
 
 - "我想从零实现一个 XXX"
 - "怎么手写/手搓一个 XXX"
@@ -23,9 +23,9 @@ Use this skill when a user says:
 
 ## Not For
 
-- Simple how-to-use existing frameworks/libraries → answer directly
-- Pure theory without coding involvement（不涉及动手写代码）
-- Already-existing standalone tutorials (this skill is an index)
+- 已有现成框架/库的简单使用教程 → 直接教用
+- 纯粹的理论原理讲解（不涉及动手写代码）
+- 已有的单独教程（本 Skill 提供的是索引和引导）
 
 ---
 
@@ -45,9 +45,9 @@ Use this skill when a user says:
 
 ### 第 3 步：引导实操
 
-- 用 `visit_web` 打开教程链接，提取核心步骤
 - 为用户规划编码流程，逐步引导完成
-- 如果教程有 GitHub 仓库，用 `git clone` 拉取
+- 如果教程有配套代码仓库，引导用户克隆
+- 打开教程链接，提取核心步骤和代码
 - 逐步引导，每步验证编译/运行
 
 ---
